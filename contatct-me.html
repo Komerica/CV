@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatct Me</title>
+</head>
+<body>
+    <h1>My Contact Details</h1>
+    <p>My Fictional Address</p>
+    <p>01011111111</p>
+    <p>myemail@gmail.com</p>
+    <!-- 
+                                    The data in our code is encoded in plain text ↓ ↓ ↓
+     -->
+    <form class="" action="mailto:jepilworld@gmail.com" method="post" enctype="text/plain">
+        <label>Your Name:</label>
+        <input type="text" name="yourName" value=""><br> <!-- name attribute는 input태그 안에 있는 데이터를 특정함 -->
+        <label>Your Email:</label>
+        <input type="email" name="yourEmail" value=""><br>
+        <label>Your Message:</label><br>
+        <textarea name="yourMessage" cols="30" rows="10"></textarea><br>
+        <input type="submit" name="">
+    </form>
+    <!-- 
+        https://developer.mozilla.org/ko/docs/Web/HTML/Element/Input
+        ↑ ↑ input types - MDN 
+     -->
+     <!-- 
+        🟩 How to set up Gmail by default for "mailto" in action attribute 🟩
+        Chrome Settings → Privacy and Security → Site settings → Additional permission 
+        → Protocol Handlers → make sure that there is mail.google.com
+      -->
+      <!-- 
+        🟩 action="mailto:abc@gmail.com" testing website: 🟩
+           https://www.k8oms.net/links/mailto-link
+           then, click "A mailto link"
+       -->
+</body>
+</html>

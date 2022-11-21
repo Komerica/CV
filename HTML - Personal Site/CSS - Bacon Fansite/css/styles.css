@@ -1,0 +1,30 @@
+h1 {
+    color: red;
+    font-size: 200px;
+}
+
+img:hover {
+    background-color: gold;
+}
+
+/* 
+🟩 우선순위 🟩
+   id > class > HTML tag 
+*/
+#bacon-id {
+    background-color: blueviolet;
+}
+.bacon {
+    background-color: green;
+}
+img {
+    background-color: blue;
+}
+
+
+.broccoli {
+    background-color: red;
+}
+.circular {
+    border-radius: 100%;
+}

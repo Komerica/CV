@@ -13,6 +13,8 @@ img:hover {
 */
 #bacon-id {
     background-color: blueviolet;
+    position: relative;
+    left: 30px;
 }
 .bacon {
     background-color: green;
